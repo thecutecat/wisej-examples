@@ -36,6 +36,9 @@
             this.showModeless = new Wisej.Web.ToolBarButton();
             this.separator2 = new Wisej.Web.ToolBarButton();
             this.showHideThumbnails = new Wisej.Web.ToolBarButton();
+            this.Separator3 = new Wisej.Web.ToolBarButton();
+            this.separator4 = new Wisej.Web.ToolBarButton();
+            this.test1 = new Wisej.Web.ToolBarButton();
             this.SuspendLayout();
             // 
             // toolBar1
@@ -43,12 +46,15 @@
             this.toolBar1.AutoSize = false;
             this.toolBar1.Buttons.AddRange(new Wisej.Web.ToolBarButton[] {
             this.addMdiChild,
+            this.Separator3,
             this.closeMdiChild,
+            this.separator4,
             this.activateFirstMdiChild,
             this.separator1,
             this.showModeless,
             this.separator2,
-            this.showHideThumbnails});
+            this.showHideThumbnails,
+            this.test1});
             this.toolBar1.Location = new System.Drawing.Point(0, 0);
             this.toolBar1.Name = "toolBar1";
             this.toolBar1.Size = new System.Drawing.Size(676, 51);
@@ -96,9 +102,25 @@
             this.showHideThumbnails.Name = "showHideThumbnails";
             this.showHideThumbnails.Text = "Hide Thumbnails Buttom";
             // 
+            // Separator3
+            // 
+            this.Separator3.Name = "Separator3";
+            this.Separator3.Style = Wisej.Web.ToolBarButtonStyle.Separator;
+            // 
+            // separator4
+            // 
+            this.separator4.Name = "separator4";
+            this.separator4.Style = Wisej.Web.ToolBarButtonStyle.Separator;
+            // 
+            // test1
+            // 
+            this.test1.ImageSource = "messagebox-hand";
+            this.test1.Name = "test1";
+            this.test1.Text = "click je";
+            // 
             // MainWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = Wisej.Web.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(676, 472);
             this.CloseBox = false;
@@ -127,6 +149,9 @@
         private Wisej.Web.ToolBarButton separator1;
         private Wisej.Web.ToolBarButton separator2;
         private Wisej.Web.ToolBarButton showHideThumbnails;
+        private Wisej.Web.ToolBarButton Separator3;
+        private Wisej.Web.ToolBarButton separator4;
+        private Wisej.Web.ToolBarButton test1;
     }
 }
 

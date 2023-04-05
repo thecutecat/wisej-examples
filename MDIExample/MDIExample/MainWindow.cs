@@ -21,8 +21,8 @@ namespace MDIExample
             AddMdiChild();
             AddMdiChild();
 
-            // uncomment the line below to hide the Show thumbnais button
-            this.MdiTabProperties.ShowThumbnails = false;
+            // uncomment the line below to hide the Show thumbnails button
+            this.MdiTabProperties.ShowThumbnails = true;
         }
 
         private void toolBar1_ButtonClick(object sender, ToolBarButtonClickEventArgs e)
